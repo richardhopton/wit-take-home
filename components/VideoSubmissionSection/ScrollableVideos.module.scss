@@ -1,0 +1,12 @@
+.scrollable {
+  padding: 66px 79px 40px;
+}
+
+.stack {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  *:not(:last-child) {
+    margin-right: 62px;
+  }
+}

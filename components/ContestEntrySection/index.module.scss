@@ -1,0 +1,17 @@
+.container {
+  max-width: 1366px;
+  min-height: 780px;
+  mix-blend-mode: color;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: auto, auto, auto, cover;
+  background-blend-mode: color, multiply, normal, normal;
+  background-position: 0 0, 0 0, 0 0, center 20%;
+  background-image: linear-gradient(0deg, #ce022c, #ce022c),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    url("/background.png");
+  color: white;
+  padding: 42px 50px;
+  box-sizing: border-box;
+}
