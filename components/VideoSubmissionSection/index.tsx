@@ -7,10 +7,12 @@ export type VideoSubmissionSectionProps = ScrollableVideosProps;
 const VideoSubmissionSection = ({ videos }: VideoSubmissionSectionProps) => {
   return (
     <div className={styles.container}>
-      <SubHeader>
-        Headline about videos&nbsp;
-        <span className={styles.highlighted}>already submitted</span>
-      </SubHeader>
+      <div className={styles.header}>
+        <SubHeader>
+          Headline about videos
+          <span className={styles.highlighted}> already submitted</span>
+        </SubHeader>
+      </div>
       <ScrollableVideos videos={videos} />
     </div>
   );

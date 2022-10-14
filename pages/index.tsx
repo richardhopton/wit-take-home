@@ -1,4 +1,3 @@
-import Head from "next/head";
 import ContestEntrySection, {
   ContestEntrySectionProps,
 } from "../components/ContestEntrySection";
@@ -28,13 +27,6 @@ type IndexProps = VideoSubmissionSectionProps & ContestEntrySectionProps;
 const Index = ({ videos, dateTime }: IndexProps) => {
   return (
     <div className={styles.main}>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
-          rel="stylesheet"
-          type="text/css"
-        />
-      </Head>
       <main>
         <ContestEntrySection dateTime={dateTime} />
         <VideoSubmissionSection videos={videos} />

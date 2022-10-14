@@ -2,8 +2,19 @@
   max-width: 1366px;
   min-height: 580px;
   background: #ffffff 0% 0% no-repeat padding-box;
-  padding: 60px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 850px) {
+    min-height: 500px;
+  }
+}
+
+.header {
+  padding: 60px;
+
+  @media screen and (max-width: 850px) {
+    padding: 30px;
+  }
 }
 
 .highlighted {

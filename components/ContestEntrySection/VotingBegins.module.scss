@@ -3,6 +3,13 @@
   letter-spacing: 2.8px;
   color: #ffffff;
   text-transform: uppercase;
+  margin-bottom: 52px;
+
+  @media screen and (max-width: 850px) {
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 25px;
+  }
 }
 
 .strong {

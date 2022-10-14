@@ -1,0 +1,49 @@
+.image {
+  background-repeat: no-repeat;
+  background-size: auto, auto, auto, cover;
+  background-blend-mode: color, multiply, normal, normal;
+  background-position: 0 0, 0 0, 0 0, center 20%;
+  background-image: linear-gradient(0deg, #ce022c, #ce022c),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    url("/background.png");
+  max-width: 1366px;
+  min-height: 780px;
+}
+
+// the design contains these layers but they can't be used
+// because web rendering doesn't work that way and will break
+// the display of child content.
+
+// short of setting absolute position or some other hackery
+// this really should be baked into the image files not
+// rendered over and over on the client browser
+
+// .white {
+//   background: #ffffff 0% 0% no-repeat padding-box;
+//   opacity: 0.3;
+// }
+
+// .black {
+//   background: #000000 0% 0% no-repeat padding-box;
+//   opacity: 0.8;
+//   mix-blend-mode: multiply;
+// }
+
+// .color {
+//   background: #ce022c 0% 0% no-repeat padding-box;
+//   opacity: 1;
+//   mix-blend-mode: color;
+// }
+
+.container {
+  max-width: 1366px;
+  min-height: 780px;
+  color: white;
+  box-sizing: border-box;
+  padding: 42px 50px;
+
+  @media screen and (max-width: 850px) {
+    padding: 30px;
+  }
+}

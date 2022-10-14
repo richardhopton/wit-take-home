@@ -8,28 +8,18 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+
+  @media screen and (max-width: 850px) {
+    min-height: 260px;
+  }
 }
 
 .text {
   margin: 14px;
-  width: 720px;
+  max-width: 720px;
   text-align: center;
   font: normal normal normal 18px/24px Open Sans;
   letter-spacing: 0px;
   color: #000000;
-}
-
-.button {
-  background: #ce022c 0% 0% no-repeat padding-box;
-  border-width: 0px;
-  border-radius: 20px;
-  width: 140px;
-  height: 40px;
-  text-align: center;
-  font: normal normal 600 13px/14px Open Sans;
-  letter-spacing: 1.3px;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin: 16px;
-  box-sizing: content-box;
+  margin-bottom: 30px;
 }

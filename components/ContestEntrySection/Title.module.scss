@@ -1,0 +1,18 @@
+.title {
+  font: normal normal 900 60px/60px Open Sans;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 850px) {
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  font: normal normal normal 18px/24px Open Sans;
+  padding-bottom: 32px;
+
+  @media screen and (max-width: 850px) {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

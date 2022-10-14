@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.logo {
+  width: 76px;
+  height: 76px;
+
+  @media screen and (max-width: 850px) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.text {
+  font: normal normal 300 14px/14px Open Sans;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 16px;
+
+  @media screen and (max-width: 850px) {
+    font-size: 11px;
+  }
+}
+
+.highlighted {
+  font: normal normal 900 16px/18px Open Sans;
+  letter-spacing: 1.6px;
+  color: #fd3560;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 850px) {
+    font-size: 13px;
+  }
+}

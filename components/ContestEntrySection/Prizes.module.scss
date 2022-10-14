@@ -1,0 +1,53 @@
+.container {
+  width: 440px;
+  background-color: white;
+  color: black;
+  margin-bottom: 32px;
+}
+
+.prizes {
+  height: 450px;
+  padding: 20px;
+}
+
+.image {
+  margin-bottom: 20px;
+  max-width: 404px;
+  max-height: 300px;
+}
+
+.name {
+  font: normal normal 900 16px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #7e011c;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.title {
+  font: normal normal bold 24px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.selectors {
+  height: 5px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 12px;
+
+  :not(:last-child) {
+    margin-right: 1px;
+  }
+}
+
+.selector {
+  background-color: #dddddd;
+  height: 5px;
+  width: 20%;
+}
+
+.activeSelector {
+  background-color: #fd3560;
+  height: 5px;
+}

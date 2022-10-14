@@ -1,12 +1,30 @@
 .footer {
   display: flex;
   align-items: center;
+  background: #7e011c 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  font: normal normal 600 12px/30px Open Sans;
+}
+
+.horizontal {
   justify-content: space-between;
   max-width: 1366px;
   height: 90px;
-  background: #7e011c 0% 0% no-repeat padding-box;
   padding: 25px 40px;
   box-sizing: border-box;
-  color: #ffffff;
-  font: normal normal 600 12px/30px Open Sans;
+}
+
+.stacked {
+  flex-direction: column;
+  padding: 25px 0px;
+  justify-content: space-between;
+  height: 160px;
+}
+
+.copyrightText {
+  font: normal normal 600 10px/12px Open Sans;
+}
+
+.logo {
+  height: 27px !important;
 }

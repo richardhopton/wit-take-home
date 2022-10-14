@@ -1,12 +1,28 @@
 .scrollable {
-  padding: 66px 79px 40px;
+  padding: 6px 139px 40px;
+
+  @media screen and (max-width: 1366px) {
+    padding-right: 0px;
+  }
+
+  @media screen and (max-width: 850px) {
+    padding-left: 30px;
+  }
 }
 
 .stack {
   overflow-x: auto;
   white-space: nowrap;
+  display: flex;
+  flex-direction: row;
 
   *:not(:last-child) {
     margin-right: 62px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    *:last-child {
+      margin-right: 139px;
+    }
   }
 }

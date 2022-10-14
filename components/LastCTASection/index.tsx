@@ -1,6 +1,6 @@
-import Button from "react-bootstrap/Button";
 import styles from "./index.module.scss";
 import SubHeader from "../shared/SubHeader";
+import EnterNowButton from "../shared/EnterNowButton";
 
 const LastCTASection = () => (
   <div className={styles.container}>
@@ -9,7 +9,7 @@ const LastCTASection = () => (
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
       tellus, pulvinar quis volutpat et, mollis vitae ligula.
     </div>
-    <Button className={styles.button}>Enter Now</Button>
+    <EnterNowButton />
   </div>
 );
 
